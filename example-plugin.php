@@ -31,8 +31,8 @@ class ExamplePlugin extends SanityPluginFramework {
 	*		Required __construct() function that initalizes the Sanity Framework
 	*/
 	function __construct() {
-      parent::__construct(__FILE__);
-  }
+		parent::__construct(__FILE__);
+  	}
 
 	/*
 	*		Run during the activation of the plugin
